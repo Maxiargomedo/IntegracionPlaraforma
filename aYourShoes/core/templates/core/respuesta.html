@@ -1,0 +1,90 @@
+{% load static %}
+<!doctype html>
+<html lang="es,en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <Title>Your Shoes | Nike Air Max 270</Title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'core/img/LOGO_SIN_FONDO.ico '%}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'core/css/styles2.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/flaticon.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/slicknav.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/animate.min.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/fontawesome-all.min.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/themify-icons.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/slick.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/nice-select.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/style.css'%}">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h2>Coloca tu correo electrónico vinculado a tu cuenta</h2>
+    <div class="container">
+        <form id="respuestaFrom" onsubmit="validar3();return false" ;>
+            <div class="col-xl-7 col-lg-4 col-md-5 col-sm-4 ">
+                <input type="text" id="Email2" name="Email2" placeholder="Email o Gmail *" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email o Gmail'" required class="single-input">
+            </div>
+            <div>
+                <p>
+                    Una vez ingresado el correo, enviaremos un link de cambio de contraseña.
+                </p>
+            </div>
+            <button class="btn btn-success" type="submit" id="btnEnviar3">Enviar</button>
+        </form>
+    </div>
+
+    <!-- termino info -->
+
+    <!-- JS -->
+    <!-- alert y ajax-->
+    <script src="{% static 'core/js/registros.js'%}"></script>
+    <script src="{% static 'core/js/alerta.js'%}"></script>
+    <script src="{% static 'core/js/loginAjax.js'%}"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="{% static 'core/js/vendor/jquery-1.12.4.min.js'%} "></script>
+    <script src="{% static 'core/js/popper.min.js'%} "></script>
+    <script src="{% static 'core/js/bootstrap.min.js'%} "></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="{% static 'core/js/jquery.slicknav.min.js'%} "></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="{% static 'core/js/owl.carousel.min.js'%} "></script>
+    <script src="{% static 'core/js/slick.min.js'%} "></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="{% static 'core/js/wow.min.js'%} "></script>
+    <script src="{% static 'core/js/animated.headline.js'%} "></script>
+
+    <!-- Scroll up, nice-select, sticky -->
+    <script src="{% static 'core/js/jquery.scrollUp.min.js'%} "></script>
+    <script src="{% static 'core/js/jquery.nice-select.min.js'%} "></script>
+    <script src="{% static 'core/js/jquery.sticky.js'%} "></script>
+    <script src="{% static 'core/js/jquery.magnific-popup.js'%} "></script>
+
+    <!-- contact js -->
+    <script src="{% static 'core/js/contact.js'%} "></script>
+    <script src="{% static 'core/js/jquery.form.js'%} "></script>
+    <script src="{% static 'core/js/jquery.validate.min.js'%} "></script>
+    <script src="{% static 'core/js/mail-script.js'%} "></script>
+    <script src="{% static 'core/js/jquery.ajaxchimp.min.js'%} "></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="{% static 'core/js/plugins.js'%} "></script>
+    <script src="{% static 'core/js/main.js'%} "></script>
+    <script src="{% static 'core/js/vendor/modernizr-3.5.0.min.js'%} "></script>
+</body>
+
+</html>
