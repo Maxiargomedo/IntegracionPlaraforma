@@ -28,8 +28,8 @@ public class OracleDataBaseConnection {
         this.hostName = "127.0.0.1";
         this.jdbcPort = "1521";
         this.sid = "XE";
-        this.user = "c##USERANWO";
-        this.password = "oracle";
+        this.user = "c##TiendaTenis";
+        this.password = "oracla";
         this.url = getUrlString();
     }
     
