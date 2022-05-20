@@ -1,0 +1,9 @@
+PruebaConexionBDServlet.class
+model\AnwoProductoLista.class
+com\anwo\serviciowebanwo\WsAnwo.class
+database\AnwoStoreProcedures.class
+com\anwo\serviciowebanwo\JAXRSConfiguration.class
+model\AnwoProducto.class
+com\anwo\serviciowebanwo\resources\JavaEE8Resource.class
+database\OracleDataBaseConnection.class
+com\anwo\serviciowebanwo\XMLSerializer.class

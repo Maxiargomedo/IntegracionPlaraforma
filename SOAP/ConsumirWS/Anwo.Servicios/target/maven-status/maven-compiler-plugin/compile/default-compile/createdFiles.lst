@@ -1,0 +1,8 @@
+Anwo\Modelo\AnwoProductoLista.class
+com\anwo\anwo\servicios\WsAnwo.class
+com\anwo\anwo\servicios\JAXRSConfiguration.class
+Anwo\DataBase\AnwoStoreProcedures.class
+Anwo\DataBase\OracleDataBaseConnection.class
+Anwo\Herramientas\XMLSerializer.class
+Anwo\Modelo\AnwoProducto.class
+com\anwo\anwo\servicios\resources\JavaEE8Resource.class
